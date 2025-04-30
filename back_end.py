@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from groq import Groq
 from IPython.display import Markdown, display, update_display
 import dotenv
+import streamlit as st
 
 dotenv.load_dotenv()
 
@@ -71,18 +72,6 @@ def get_brochure_user_prompt(news_article, url):
     user_prompt = user_prompt[:5_000]  # Truncate if more than 5,000 characters
     return user_prompt
 
-def create_brochure(company_name, url):
-    response = groq.chat.completions.create(
-        model=MODEL,
-        temperature=2,
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": get_brochure_user_prompt(company_name, url)}
-        ],
-    )
-    result = response.choices[0].message.content
-    display(Markdown(result))
-
 def stream_brochure(company_name, url):
     stream = groq.chat.completions.create(
         model=MODEL,
@@ -95,11 +84,14 @@ def stream_brochure(company_name, url):
     )
 
     response = ""
-    display_handle = display(Markdown(""), display_id=True)
+    placeholder = st.empty()
     for chunk in stream:
-        response += chunk.choices[0].delta.content or ''
-        response = response.replace("```","").replace("markdown", "")
-        update_display(Markdown(response), display_id=display_handle.display_id)
+        delta = chunk.choices[0].delta.content or ""
+        response += delta
+        clean_response = response.replace("```", "").replace("markdown", "")
+        placeholder.markdown(clean_response)
+
+    return response
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
@@ -125,4 +117,12 @@ system_prompt = "You are a highly skeptical assistant that analyzes the contents
 Additionally, you are to be highly critical, and scrutinise and identify any hint of government bias within each appropriate news article to determine if said news article is propaganda or not. \
 Include details of the writer and background to affirm your evidence if so. Respond in markdown. USE AS MANY EMOJIs AS POSSIBLE"
 
+CNA = Website("https://www.channelnewsasia.com/")
+TODAY = Website("https://www.todayonline.com/")
+STRAITSTIMES = Website("https://www.straitstimes.com/")
+INDEPENDENT = Website("https://theindependent.sg/")
 
+MOTHERSHIP = Website("https://mothership.sg/")
+STOMP = Website("https://stomp.straitstimes.com/")
+RICE = Website("https://www.ricemedia.co/")
+JOM = Website("https://www.jom.media/")
