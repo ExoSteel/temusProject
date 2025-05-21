@@ -1,0 +1,4 @@
+groq
+bs4
+dotenv
+streamlit
