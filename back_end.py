@@ -112,10 +112,9 @@ link_system_prompt += """
     ]
 }
 """
-
-system_prompt = "You are a highly skeptical assistant that analyzes the contents of several news articles and determines whether or not said news article is fake or is exaggerating its claims. \
-Additionally, you are to be highly critical, and scrutinise and identify any hint of government bias within each appropriate news article to determine if said news article is propaganda or not. \
-Include details of the writer and background to affirm your evidence if so. Respond in markdown. USE AS MANY EMOJIs AS POSSIBLE"
+with open("system_prompt.txt", "rt") as infile:
+    system_prompt = "".join(infile.readlines())
+    print(system_prompt)
 
 CNA = Website("https://www.channelnewsasia.com/")
 TODAY = Website("https://www.todayonline.com/")
