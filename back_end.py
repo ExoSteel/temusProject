@@ -114,7 +114,10 @@ link_system_prompt += """
 """
 with open("system_prompt.txt", "rt") as infile:
     system_prompt = "".join(infile.readlines())
-    print(system_prompt)
+
+with open("bias_aligner.txt", "rt") as infile:
+    system_prompt += "This is a research paper based on indentifying general bias and more specifically, Singapore's media scene, and its characteristics. This is to ensure faireness and an objective point of view at all times, against all types of content: \n"
+    system_prompt += "".join(infile.readlines())
 
 CNA = Website("https://www.channelnewsasia.com/")
 TODAY = Website("https://www.todayonline.com/")

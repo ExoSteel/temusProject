@@ -1,0 +1,89 @@
+Markers of Biased or Fake News
+
+Linguistic & Stylistic cues: Biased or fake articles often use loaded, emotive language and simple
+phrasing. Studies show deceptive news tends to have simpler grammar and more emotional words (e.g.
+extremes, hyperbole) than factual reports. For example, partisan outlets may use charged terms (like
+“abortion law” vs “abortion rights” ) to signal ideology. Fake stories also pack headlines and text with
+sensational or clickbait wording – ALL‑CAPS, exclamation points, outrage‑bait images, and hyperbolic
+claims. Researchers note that liars often write with lower complexity and more affective language
+(e.g. many adverbs or emotional adjectives). In contrast, neutral reporting uses precise, balanced
+wording and avoids unverified superlatives or moralistic labels.
+
+Structural & sourcing cues: Biased/fake news often violates standard reporting structure. Headlines
+may wildly overstate the story, and key facts or context are buried or missing . Fake articles rarely cite
+multiple, named sources – they rely on anonymous claims or single eyewitness quotes. Reputable
+journalism requires named, traceable sources and multi‑sided attribution (Reuters advises using “named
+sources whenever possible” and never citing plural sources when only one was interviewed ). In biased
+pieces you’ll see no bylines, no clear sourcing, or only one perspective presented as fact. Misinformation
+may also imitate official formatting (fake logos, fabricated quotes) without real links or footnotes. By
+contrast, objective news follows the “inverted pyramid” (most important facts up front), credits authorities,
+and clearly separates factual reporting from opinion.
+
+Thematic & framing cues: Biased stories typically follow partisan narratives or conspiratorial themes.
+Common patterns include “us vs. them” framing, blaming a scapegoat group or demonizing opponents,
+and pushing a single consistent agenda (e.g. constant crisis or culture‑war themes). Content may revolve
+around hot-button political topics in polarized ways. Empirical studies find media outlets on opposite sides
+focus on the same topics but use different framing words. For instance, one outlet might highlight
+rights while another highlights legislation on the same issue, subtly steering reader attitudes. Fake news
+often emphasizes fear, injustice or scandal and omits nuance. Academics note that propaganda and
+biased media tend to recycle simple ideological stereotypes and emotional appeal (e.g. appeals to
+patriotism, gender or race stereotypes) to sway audiences. In contrast, neutral reporting frames
+issues factually, providing context and multiple viewpoints.
+
+Global research findings: Large-scale analyses confirm bias and misinformation are widespread but vary
+by country and context. A University of Rochester study of 1.8 million U.S. headlines (2014–2022) found
+growing polarization: outlets on the right and left showed systematic differences in word choice on political/
+social issues . Global NLP research also finds that media bias is highly region-specific and event-driven
+(e.g. coverage of the Russia-Ukraine war). Authoritarian regimes explicitly inject bias: studies show
+China’s state media frames foreign news positively toward its trade partners and always blames “chaos” on
+outsiders . In democracies, bias is subtler but real: audiences and journalists often disagree on
+bothsidesism (the need for perfectly even coverage). Overall, independent reviews conclude that
+most news outlets carry ideological leanings (intentionally or not), whereas truly objective reporting (neutral
+tone, fact-checking emphasis) is rare.
+
+Singapore’s Media Environment and Bias
+
+State-controlled media: Singapore’s mainstream press is largely government-linked (owned by
+state-affiliated conglomerates), so reporting typically reflects official viewpoints. Press freedom
+watchdogs note “little respect for press freedom and editorial independence” under the ruling party, and
+laws discourage dissent. Journalists often avoid challenging the government, so local news
+emphasizes stability and positive spin on PAP policies.
+
+Fake-news law (POFMA): In 2019 Singapore passed POFMA, empowering the government to label
+and require corrections of online “false statements.” Critics argue this makes the state “the sole
+arbiter of what information is permissible online” and even the “ultimate fact-checker” . In
+practice, POFMA directives target political speech by opposition figures or citizen journalists more
+than mainstream media. Research shows POFMA’s introduction amplified hard news and local
+politics coverage (and audience engagement) – an indication that media followed official signals on
+which topics to emphasize.
+
+Misinformation markers in Singaporean context: Bias or fake content here often looks like
+government spin. Watch for articles that copy official press releases almost verbatim, omit criticism,
+or cite only ruling‑party sources. Disinformation in Singapore tends to be quickly “fact-checked” by
+state agencies; thus false local claims often carry government rebuttals. By contrast, independent
+fact-checkers note that foreign or social media sources (not bound by POFMA) sometimes break
+news with less restraint, but they lack reach in Singapore. Overall, the absence of alternative
+narratives is itself a marker: if all outlets report identically, bias is baked in.
+
+Objective vs. Biased Reporting Standards
+
+Neutral reporting norms: Ethical journalism standards (AP, Reuters, etc.) stress accuracy, balance
+and transparency. For example, Reuters’ guidelines mandate holding “accuracy sacrosanct”, seeking
+“fair comment”, and “striv[ing] for balance and freedom from bias” . Reporters are advised to avoid
+inserting their own opinions, and to correct errors openly. Objective articles attribute statements to
+sources (e.g. “according to X”), present multiple viewpoints, and use neutral descriptors (e.g. “alleges”
+instead of “proves”). Newsrooms train writers to fact-check and quantify (using numbers or named
+evidence) rather than relying on unnamed claims.
+
+Contrasts with biased/fake content: By contrast, biased or fake stories flout these standards. They
+present opinion or unverified claims as fact, rarely label sources clearly, and do not issue corrections
+when wrong. They use subjective or emotional language instead of objective phrasing. Where
+neutral reporting would say “is alleged to have”, biased content might say “did” without evidence.
+Essentially, biased pieces violate Reuters/AP principles by failing on accuracy and balance.
+Media watchdogs emphasize that consumers should watch for these violations: outrageous
+headlines, lack of attribution, and opinionated tone are red flags.
+
+Sources: Academic studies and reports (see citations) have systematically identified the above markers
+across countries. Media watchdogs (e.g. Reuters Institute, Reporters Without Borders) corroborate that
+press freedom, editorial standards, and misinformation laws strongly shape how biased a news outlet’s
+content can be. Each bullet above is supported by expert analysis or research findings.
